@@ -29,7 +29,7 @@ signal.signal(signal.SIGINT, signal_handler)
 
 # Archivo de keywords y archivo de resultados
 keywords_file = "raw_data/jobs/keyword_status.csv"
-output_file = "faoterm_results.csv"
+output_file = "raw_data/thesaurus/thesaurus_fao.csv"
 
 # Leer las keywords desde el archivo CSV
 keywords_df = pd.read_csv(keywords_file)

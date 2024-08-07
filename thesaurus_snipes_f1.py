@@ -20,7 +20,7 @@ def signal_handler(sig, frame):
 # Función para guardar los datos en un CSV
 def save_data():
     df = pd.DataFrame(data, columns=['word', 'word_link'])
-    df.to_csv('raw_data/vocabularios_spines.csv', index=False)
+    df.to_csv('raw_data/thesaurus/vocabularios_spines.csv', index=False)
     print("Datos guardados en vocabularios_spines.csv")
 
 # Conectar la señal de interrupción a la función de guardado
