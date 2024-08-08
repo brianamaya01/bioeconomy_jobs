@@ -33,7 +33,7 @@
 
 ## Códigos 
 
-1. Para ordenar las palabras clave asociadas a bioeconomía clean_bioeconomy_keywords.py
+1. Para ordenar las palabras clave asociadas a bioeconomía clean_bioeconomy_keywords.py, las palabras limpias para estan en tidy_data\keywords 
 2. Para acceder a empleos a partir de las palabras clave se usó jobs_linkedin_keywords.py y jobs_bioeconomy_careers.py
 3. Para acceder a tesauros en español se usaron thesaurus_keywords_fao.py y thesaurus_snipes_f1.py, thesaurus_snipes_f2.py  
 4. Se realizó una prueba de clasificación con la libreria Spacy para revisar si las palabras clasificadas se encuentran en empleos actuales. Requiere de mejoras. 
